@@ -173,7 +173,6 @@ const App: FC < AppProps & { baseUrl: string } > = ({
 
 	return (
 		<ReservoirKitProvider options={options} theme={reservoirKitTheme}>
-      <HeaderScript /> 
       <RecoilRoot>
         <WagmiConfig client={wagmiClient}>
           <RainbowKitProvider
