@@ -21,7 +21,6 @@ import { default as NextApp } from 'next/app'
 import { WagmiConfig, createClient, configureChains } from 'wagmi'
 import * as allChains from 'wagmi/chains'
 import AnalyticsProvider from 'components/AnalyticsProvider'
-import HeaderScript from 'components/HeaderScript'
 import { ThemeProvider, useTheme } from 'next-themes'
 import { RecoilRoot } from 'recoil'
 import {
@@ -33,7 +32,6 @@ import {
 } from '@reservoir0x/reservoir-kit-ui'
 import { FC, useEffect, useState } from 'react'
 import '@rainbow-me/rainbowkit/styles.css'
-import Script from 'next/script'
 import {
 	getDefaultWallets,
 	RainbowKitProvider,
